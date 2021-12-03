@@ -54,6 +54,8 @@ class GA:
         for i in range(elitismOffset, newPopulation.populationSize()):
             parent1 = self.tournamentSelection(pop)
             parent2 = self.tournamentSelection(pop)
+            while parent2==parent1:
+                parent2=self.tournamentSelection(pop)
             child = self.crossover(parent1, parent2)
             newPopulation.saveDistribution(i, child)
 

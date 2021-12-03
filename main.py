@@ -8,24 +8,23 @@ if __name__ == '__main__':
         distributionManager.addProject(ProjectsManager.Project(i))
     # Initialize population
     pop = GeneticsAlgorithem.Population(distributionManager, 100, True,students)
-    print("Initial distance: " + str(pop.getFittest().getFitness(students)))
+    print("Initial fittness: " + str(pop.getFittest().getFitness(students)))
 
-    # Evolve population for 50 generations
+    # Evolve population for 200 generations
     progress = []
     progress.append(pop.getFittest().getFitness(students))
     ga = GeneticsAlgorithem.GA(distributionManager,students)
-    pop = ga.evolvePopulation(pop)
     for i in range(0, 200):
         pop = ga.evolvePopulation(pop)
         progress.append(pop.getFittest().getFitness(students))
 
     plt.plot(progress)
-    plt.ylabel('Distance')
+    plt.ylabel('Fittness')
     plt.xlabel('Generation')
     plt.show()
     # Print final results
     print("Finished")
-    print("Final distance: " + str(pop.getFittest().getFitness(students)))
+    print("Final fittness: " + str(pop.getFittest().getFitness(students)))
     print("Solution:")
     print(pop.getFittest())
     print(pop.getFittest().print(students))

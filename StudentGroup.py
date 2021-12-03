@@ -1,5 +1,3 @@
-import numpy as np
-
 
 class StudentGroup:
     def __init__(self, names, choices):
@@ -13,13 +11,11 @@ class StudentGroup:
         return self.choices
 
     def calculateCompatibility(self, project):
-        # TODO Edit to include apis
         # ans = 0
         for i in range(len(self.choices)):
             if self.choices[i] == project.getID():
-                x = (len(self.choices) - i)
-                return x * x
-        return -10.0
+                return 10-i  # 10 for first, 9 for second, 8 for third
+        return 0
 
     def __repr__(self):
         return ",".join(self.names) + " chose: " + ",".join(self.choices)

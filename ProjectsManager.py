@@ -2,7 +2,7 @@ import random,numpy as np
 
 
 class Project:
-    # TODO To increase efficiency of class
+    # TODO To increase efficiency of class: name, description, etc..
     def __init__(self, pid):
         self.id = pid
 
@@ -30,7 +30,7 @@ class Distribution:
     def __init__(self, distributionManager, distribution=None):
         self.distributionManager = distributionManager
         self.distribution = []
-        self.fitness = 0.0
+        self.fitness = -1
         if distribution is not None:
             self.distribution = distribution
         else:
@@ -69,21 +69,18 @@ class Distribution:
             fitnesses=[]
             for i in range(len(students)):
                 fitnesses.append(students[i].calculateCompatibility(self.getProject(i)))
-            self.fitness = np.sum(fitnesses)*len(students)
-            avg=self.fitness/len(students)
-            for x in fitnesses:
-                self.fitness -= abs(avg-x)
-            self.fitness-=(len(fitnesses)-np.count_nonzero(fitnesses))*10
+            self.fitness = np.sum(fitnesses)
+
         return self.fitness
 
     def print(self,students):
         fitnesses = []
         for i in range(len(students)):
             fitnesses.append(students[i].calculateCompatibility(self.getProject(i)))
-        print("First:", len(list(filter(lambda x: x == 9, fitnesses))))
-        print("Second:", len(list(filter(lambda x: x == 4, fitnesses))))
-        print("Third:", len(list(filter(lambda x: x == 1, fitnesses))))
-        print("Zeros:", len(list(filter(lambda x: x == -10, fitnesses))))
+        print("First:", len(list(filter(lambda x: x == 10, fitnesses))))
+        print("Second:", len(list(filter(lambda x: x == 9, fitnesses))))
+        print("Third:", len(list(filter(lambda x: x == 8, fitnesses))))
+        print("Zeros:", len(list(filter(lambda x: x == 0, fitnesses))))
 
     def distributionSize(self):
         return len(self.distribution)
