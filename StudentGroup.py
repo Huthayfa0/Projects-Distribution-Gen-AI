@@ -1,4 +1,3 @@
-
 class StudentGroup:
     def __init__(self, names, choices):
         self.names = sorted(names)
@@ -13,15 +12,15 @@ class StudentGroup:
     def calculateCompatibility(self, project):
         # ans = 0
         for i in range(len(self.choices)):
-            if self.choices[i] == project.getID():
-                return 10-i  # 10 for first, 9 for second, 8 for third
+            if self.choices[i].getID() == project.getID():
+                return 10 - i  # 10 for first, 9 for second, 8 for third
         return 0
 
     def __repr__(self):
         return ",".join(self.names) + " chose: " + ",".join(self.choices)
 
 
-def read_file(fileName):
+def read_file(fileName, distributionManager):
     groups = []
     # TODO might edit to include more file types
     if fileName.endswith('csv'):
@@ -34,7 +33,8 @@ def read_file(fileName):
                 strings = list(filter(None, map(lambda x: x.strip(' \n'), strings)))
                 while not strings[0].isnumeric():
                     names.append(strings.pop(0))
-                choices = list(map(int, strings))
+                choices = list(map(lambda x: list(filter(lambda c: c.getID() == x, distributionManager.projects))[0],
+                                   map(int, strings)))
                 groups.append(StudentGroup(names, choices))
     else:
         raise NotImplementedError

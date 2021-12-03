@@ -1,4 +1,4 @@
-import random,numpy as np
+import random, numpy as np
 
 
 class Project:
@@ -57,6 +57,27 @@ class Distribution:
             self.setProject(projectIndex, self.distributionManager.getProject(projectIndex))
         random.shuffle(self.distribution)
 
+    def generateIndividualUsingCSP(self, students):
+        x = [p for p in self.distributionManager.projects]
+        l=list(range(0, len(students)))
+        random.shuffle(l)
+        for projectIndex in l:
+            v = False
+            for c in students[projectIndex].choices:
+                if  (c in x):
+                    self.setProject(projectIndex, c)
+                    x.remove(c)
+                    v = True
+                    break
+            if not v:
+                i = int(random.random() * len(x))
+                self.setProject(projectIndex, x[i])
+                x.remove(x[i])
+        for projectIndex in range(len(students), self.distributionManager.numberOfProjects()):
+            i = int(random.random() * len(x))
+            self.setProject(projectIndex, x[i])
+            x.remove(x[i])
+
     def getProject(self, projectIndex):
         return self.distribution[projectIndex]
 
@@ -64,16 +85,16 @@ class Distribution:
         self.distribution[projectIndex] = project
         self.fitness = -1
 
-    def getFitness(self,students):
+    def getFitness(self, students):
         if self.fitness == -1:
-            fitnesses=[]
+            fitnesses = []
             for i in range(len(students)):
                 fitnesses.append(students[i].calculateCompatibility(self.getProject(i)))
             self.fitness = np.sum(fitnesses)
 
         return self.fitness
 
-    def print(self,students):
+    def print(self, students):
         fitnesses = []
         for i in range(len(students)):
             fitnesses.append(students[i].calculateCompatibility(self.getProject(i)))

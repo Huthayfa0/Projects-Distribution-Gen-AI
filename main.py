@@ -1,11 +1,11 @@
 import StudentGroup,ProjectsManager,GeneticsAlgorithem, json, matplotlib.pyplot as plt
 
 if __name__ == '__main__':
-    students=StudentGroup.read_file("StudentsSelections.csv")
     distributionManager = ProjectsManager.DistributionManager()
-
-    for i in range(1,39):
+    for i in range(1, 39):
         distributionManager.addProject(ProjectsManager.Project(i))
+    students=StudentGroup.read_file("StudentsSelections.csv",distributionManager)
+
     # Initialize population
     pop = GeneticsAlgorithem.Population(distributionManager, 100, True,students)
     print("Initial fittness: " + str(pop.getFittest().getFitness(students)))

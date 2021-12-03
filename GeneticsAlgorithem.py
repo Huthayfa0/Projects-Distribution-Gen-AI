@@ -10,7 +10,10 @@ class Population:
         if initialise:
             for i in range(0, populationSize):
                 newDistribution = ProjectsManager.Distribution(distributionManager)
-                newDistribution.generateIndividual()
+                if random.random()<0.01:
+                    newDistribution.generateIndividualUsingCSP(students)
+                else:
+                    newDistribution.generateIndividual()
                 self.saveDistribution(i, newDistribution)
 
     def __setitem__(self, key, value):
