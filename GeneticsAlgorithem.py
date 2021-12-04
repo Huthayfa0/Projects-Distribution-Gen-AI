@@ -59,7 +59,7 @@ class GA:
             parent2 = self.tournamentSelection(pop)
             while parent2==parent1:
                 parent2=self.tournamentSelection(pop)
-            child = self.crossover(parent1, parent2)
+            child = self.crossoverV1(parent1, parent2)
             newPopulation.saveDistribution(i, child)
 
         for i in range(elitismOffset, newPopulation.populationSize()):
@@ -67,12 +67,12 @@ class GA:
 
         return newPopulation
 
-    def crossover(self, parent1, parent2):
+    def crossoverV1(self, parent1, parent2):
         child = ProjectsManager.Distribution(self.distributionManager)
 
-        startPos = int(random.random() * parent1.distributionSize())
-        endPos = int(random.random() * parent1.distributionSize())
-        if(endPos<startPos):
+        startPos = random.randrange(0,parent1.distributionSize())
+        endPos = random.randrange(0,parent1.distributionSize())
+        if endPos<startPos:
             startPos,endPos=endPos,startPos
         for i in range(0, child.distributionSize()):
             if startPos < i < endPos:
@@ -85,10 +85,29 @@ class GA:
                         break
         return child
 
+    def crossoverV2(self, parent1, parent2):
+        child = ProjectsManager.Distribution(self.distributionManager)
+        ip1=0
+        ip2=0
+        for i in range(0, child.distributionSize()):
+            while ip1<parent1.distributionSize() and child.containsProject(parent1.getProject(ip1)):
+                ip1+=1
+            while ip2<parent2.distributionSize() and child.containsProject(parent2.getProject(ip2)):
+                ip2+=1
+            x=bool(random.getrandbits(1))
+            if (x and ip1<parent1.distributionSize()) or ip2>=parent2.distributionSize():
+                child.setProject(i,parent1.getProject(ip1))
+                ip1+=1
+            else:
+                child.setProject(i, parent2.getProject(ip2))
+                ip2 += 1
+        return child
+
+
     def mutate(self, distribution):
         for distributionPos1 in range(0, distribution.distributionSize()):
             if random.random() < self.mutationRate:
-                distributionPos2 = int(distribution.distributionSize() * random.random())
+                distributionPos2 = random.randrange(0,distribution.distributionSize())
 
                 project1 = distribution.getProject(distributionPos1)
                 project2 = distribution.getProject(distributionPos2)
@@ -99,7 +118,7 @@ class GA:
     def tournamentSelection(self, pop):
         tournament = Population(self.distributionManager, self.tournamentSize, False, self.students)
         for i in range(0, self.tournamentSize):
-            randomId = int(random.random() * pop.populationSize())
+            randomId =random.randrange(0,pop.populationSize())
             tournament.saveDistribution(i, pop.getDistribution(randomId))
         fittest = tournament.getFittest()
         return fittest

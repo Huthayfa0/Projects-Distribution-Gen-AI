@@ -64,17 +64,17 @@ class Distribution:
         for projectIndex in l:
             v = False
             for c in students[projectIndex].choices:
-                if  (c in x):
+                if (c in x):
                     self.setProject(projectIndex, c)
                     x.remove(c)
                     v = True
                     break
             if not v:
-                i = int(random.random() * len(x))
+                i = random.randrange(0,len(x))
                 self.setProject(projectIndex, x[i])
                 x.remove(x[i])
         for projectIndex in range(len(students), self.distributionManager.numberOfProjects()):
-            i = int(random.random() * len(x))
+            i = random.randrange(0,len(x))
             self.setProject(projectIndex, x[i])
             x.remove(x[i])
 
