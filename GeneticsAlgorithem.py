@@ -59,7 +59,7 @@ class GA:
             parent2 = self.tournamentSelection(pop)
             while parent2==parent1:
                 parent2=self.tournamentSelection(pop)
-            child = self.crossoverV1(parent1, parent2)
+            child = self.crossoverV3(parent1, parent2)
             newPopulation.saveDistribution(i, child)
 
         for i in range(elitismOffset, newPopulation.populationSize()):
@@ -101,6 +101,25 @@ class GA:
             else:
                 child.setProject(i, parent2.getProject(ip2))
                 ip2 += 1
+        return child
+
+    def crossoverV3(self, parent1, parent2):
+        child = ProjectsManager.Distribution(self.distributionManager)
+
+        n = random.randrange(int(parent1.distributionSize()/3),int(parent1.distributionSize()/3*2))
+        arr=[]
+        while len(arr)<n:
+            x=random.randrange(0,parent1.distributionSize())
+            if x not in arr:
+                arr.append(x)
+        for i in arr:
+            child.setProject(i,parent1.getProject(i))
+        for i in range(0, parent2.distributionSize()):
+            if not child.containsProject(parent2.getProject(i)):
+                for ii in range(0, child.distributionSize()):
+                    if child.getProject(ii) is None:
+                        child.setProject(ii, parent2.getProject(i))
+                        break
         return child
 
 
