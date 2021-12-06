@@ -1,4 +1,4 @@
-import random, numpy as np
+import random
 
 
 class Project:
@@ -90,7 +90,7 @@ class Distribution:
             fitnesses = []
             for i in range(len(students)):
                 fitnesses.append(students[i].calculateCompatibility(self.getProject(i)))
-            self.fitness = np.sum(fitnesses)
+            self.fitness = sum(fitnesses)
 
         return self.fitness
 
