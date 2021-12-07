@@ -4,7 +4,7 @@ if __name__ == '__main__':
     distributionManager = ProjectsManager.DistributionManager()
     for i in range(1, 39):
         distributionManager.addProject(ProjectsManager.Project(i))
-    students=StudentGroup.read_file("StudentsSelections.csv",distributionManager)
+    students=StudentGroup.read_file("/home/huthayfa/PycharmProjects/AI1/StudentsSelections.csv",distributionManager)
 
     # Initialize population
     pop = GeneticsAlgorithem.Population(distributionManager, 100, True,students)
