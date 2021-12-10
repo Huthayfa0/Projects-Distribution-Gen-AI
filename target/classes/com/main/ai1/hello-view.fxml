@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.main.ai1.HelloController">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <TabPane prefHeight="761.0" prefWidth="821.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Student Groups">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="543.0" prefWidth="821.0">
+                            <children>
+                                <TableView layoutX="59.0" layoutY="28.0" prefHeight="631.0" prefWidth="698.0">
+                                    <columns>
+                                        <TableColumn prefWidth="168.0" text="Groups" />
+                                        <TableColumn minWidth="0.0" prefWidth="157.0" text="First Choice" />
+                                        <TableColumn prefWidth="169.0" text="Second Choice" />
+                                        <TableColumn prefWidth="203.0" text="Third Choice " />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Project ideas">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <TableView layoutX="59.0" layoutY="36.0" prefHeight="617.0" prefWidth="706.0">
+                                    <columns>
+                                        <TableColumn prefWidth="87.0" text="ID" />
+                                        <TableColumn prefWidth="157.0" text="Supervisor" />
+                                        <TableColumn prefWidth="135.0" text="Title" />
+                                        <TableColumn minWidth="0.0" prefWidth="326.0" text="Description" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+
+                <Tab text="OUTPUT">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <TableView layoutX="59.0" layoutY="36.0" prefHeight="481.0" prefWidth="706.0">
+                                    <columns>
+                                        <TableColumn prefWidth="87.0" text="Groups" />
+                                        <TableColumn prefWidth="157.0" text="ID" />
+                                        <TableColumn prefWidth="135.0" text="Title" />
+                                        <TableColumn minWidth="0.0" prefWidth="326.0" text="Description" />
+                                    </columns>
+                                </TableView>
+                                <Button layoutX="153.0" layoutY="570.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" text="New Distribution" textFill="#d32323" />
+                                <Button layoutX="550" layoutY="570.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="136.0" text="Random Distribution" textFill="#cd2b03" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</GridPane>
