@@ -1,29 +1,32 @@
 package com.main.ai1;
+
+import javafx.beans.property.SimpleLongProperty;
+import javafx.beans.property.SimpleStringProperty;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import javafx.beans.property.SimpleLongProperty;
-import javafx.beans.property.SimpleStringProperty;
-import org.json.simple.JSONObject;
-import org.json.simple.JSONArray;
-import org.json.simple.parser.ParseException;
-import org.json.simple.parser.JSONParser;
-public class ProjectTableView {
+
+public class Output {
 
     private SimpleLongProperty id;
     private SimpleStringProperty supervisor;
     private SimpleStringProperty title;
     private SimpleStringProperty description;
+    private SimpleStringProperty Groups;
 
-
-    public ProjectTableView(Long id,String supervisor,String title , String description) {
+    public Output(Long id,String supervisor,String title , String description,String Groups) {
         this.id=new SimpleLongProperty(id);
         this.supervisor=new SimpleStringProperty(supervisor);
         this.title=new SimpleStringProperty(title);
         this.description=new SimpleStringProperty(description);
+        this.Groups=new SimpleStringProperty(Groups);
     }
-
 
     public Long getId() {
         return id.get();
@@ -58,18 +61,38 @@ public class ProjectTableView {
         this.description=new SimpleStringProperty(description);
     }
 
-    public static ArrayList<ProjectTableView>  read() throws FileNotFoundException{
+    public String getGroups() {
+        return Groups.get();
+    }
 
-        ArrayList<ProjectTableView>projects=new ArrayList<>();
+    public void setGroups(String groups) {
+
+        this.Groups=new SimpleStringProperty(groups);
+    }
+
+    public static ArrayList<Output> read() throws FileNotFoundException {
+
+        ArrayList<Output>OUTPut_Project=new ArrayList<>();
 
         JSONParser parser = new JSONParser();
         try {
 
-            JSONArray a = (JSONArray) parser.parse(new FileReader("C:\\Users\\Ameer\\Desktop\\AIProjects\\src\\main\\resources\\com\\main\\ai1\\json\\Projects.json"));
+            JSONObject a = (JSONObject) parser.parse(new FileReader("C:\\Users\\Ameer\\Desktop\\AIProjects\\src\\main\\resources\\com\\main\\ai1\\json\\Output.json"));
+            JSONArray array1 = (JSONArray) a.get("distribution");
+            JSONArray b = (JSONArray) parser.parse(new FileReader("C:\\Users\\Ameer\\Desktop\\AIProjects\\src\\main\\resources\\com\\main\\ai1\\json\\Students.json"));
+            for (int i = 0; i <b.size(); i++) {
+                JSONObject project = (JSONObject) array1.get(i);
+                JSONObject studentgroup= (JSONObject) b.get(i);
+                JSONArray names=(JSONArray) studentgroup.get("names");
+                StringBuilder stringbuilder= new StringBuilder((String) names.get(0));
+                for (int j = 1; j < names.size(); j++) {
 
-            for (Object o : a)
-            {
-                JSONObject project = (JSONObject) o;
+                    stringbuilder.append(", ").append((String) names.get(j));
+
+
+                }
+
+                String line=stringbuilder.toString();
 
                 Long id =Long.valueOf (String.valueOf((Number) project.get("id")));
 
@@ -81,13 +104,16 @@ public class ProjectTableView {
 
                 String description = (String) project.get("description");
 
-                projects.add(new ProjectTableView(id,supervisor,title , description));
+                OUTPut_Project.add(new Output(id,supervisor,title , description,line));
+
+
             }
+
         }catch(ParseException | FileNotFoundException pe) {
             System.out.println(pe);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return projects;
+        return OUTPut_Project;
     }
 }
