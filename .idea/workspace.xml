@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="586bae78-aa62-460d-9872-33299701e0eb" name="Changes" comment="added java files">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/ProjectTableView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_python_jython_2_7_2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/f.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AI1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AI1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEST.json" beforeDir="false" afterPath="$PROJECT_DIR$/BEST.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/ai1/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/ai1/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/ai1/StudentTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/StudentTableView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Best.json" beforeDir="false" afterPath="$PROJECT_DIR$/Best.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsSelections.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/StudentsSelections.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/Best.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/Best.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/ProjectsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/ProjectsManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Projects.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,20 +74,7 @@
       <recent name="com.main.ai1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloApplication">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.ai1.HelloApplication" />
-      <module name="AI1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.ai1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Python.python">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,6 +84,19 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.ai1.HelloApplication" />
+      <module name="AI1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.ai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,8 +130,8 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python" />
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -144,17 +141,15 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\Ameer\Desktop\AIProjects" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HelloApplication" />
       <item itemvalue="Python.python" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="Python.python" />
       </list>
     </recent_temporary>
@@ -206,7 +201,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated the whole budy" />
@@ -227,6 +221,7 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AI1$python.coverage" NAME="python Coverage Results" MODIFIED="1639170506392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AIProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1639143855877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python" />
   </component>
 </project>

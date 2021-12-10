@@ -1,10 +1,14 @@
+from tabula import read_pdf
+import pandas as pd
 import random
 
 
 class Project:
-    # TODO To increase efficiency of class: name, description, etc..
-    def __init__(self, pid):
+    def __init__(self, pid,supervisor,title,description):
         self.id = pid
+        self.supervisor = supervisor
+        self.title=title
+        self.description=description
 
     def getID(self):
         return self.id
@@ -108,3 +112,38 @@ class Distribution:
 
     def containsProject(self, project):
         return project in self.distribution
+
+
+def read_file(fileName):
+    distributionManager = DistributionManager()
+    if fileName.endswith('pdf'):
+        project = None
+        for df in read_pdf(fileName, pages="all"):
+            row = df.columns.tolist()
+            if row[0].isnumeric():
+                if not pd.isnull(float(row[0])):
+                    if project is not None:
+                        distributionManager.addProject(project)
+                    project = Project(float(row[0]), "", "", "")
+                if not pd.isnull(row[1]):
+                    project.supervisor += row[1]+"\n"
+                if not pd.isnull(row[2]):
+                    project.title += row[2]+"\n"
+                if not pd.isnull(row[3]):
+                    project.description += row[3]+"\n"
+            for row in df.values.tolist():
+                if not pd.isnull(row[0]):
+                    if project is not None:
+                        distributionManager.addProject(project)
+                    project = Project(row[0], "", "", "")
+                if not pd.isnull(row[1]):
+                    project.supervisor += row[1]+"\n"
+                if not pd.isnull(row[2]):
+                    project.title += row[2]+"\n"
+                if not pd.isnull(row[3]):
+                    project.description += row[3]+"\n"
+        if project is not None:
+            distributionManager.addProject(project)
+    else:
+        raise NotImplementedError
+    return distributionManager
