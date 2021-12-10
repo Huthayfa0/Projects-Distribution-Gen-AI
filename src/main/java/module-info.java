@@ -8,6 +8,7 @@ module com.main.ai1 {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires json.simple;
 
     opens com.main.ai1 to javafx.fxml;
     exports com.main.ai1;
