@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="586bae78-aa62-460d-9872-33299701e0eb" name="Changes" comment="prepared json and pdf read">
+    <list default="true" id="586bae78-aa62-460d-9872-33299701e0eb" name="Changes" comment="prepared image for evaluation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/ProjectsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/ProjectsManager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/Output.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/Output.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Output.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Students.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Students.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -191,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639170648956</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="prepared image for evaluation">
+      <created>1639171059198</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639171059198</updated>
+    </task>
+    <task id="LOCAL-00006" summary="prepared image for evaluation">
+      <created>1639171070655</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639171070655</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +232,8 @@
     <MESSAGE value="setup python run through java" />
     <MESSAGE value="StudentTableView" />
     <MESSAGE value="prepared json and pdf read" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepared json and pdf read" />
+    <MESSAGE value="prepared image for evaluation" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepared image for evaluation" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -228,7 +247,7 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AI1$python.coverage" NAME="python Coverage Results" MODIFIED="1639170942445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AI1$python.coverage" NAME="python Coverage Results" MODIFIED="1639172392480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AIProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1639143855877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python" />
   </component>
 </project>

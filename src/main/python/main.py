@@ -32,13 +32,6 @@ if __name__ == '__main__':
     plt.xlabel('Generation')
     plt.savefig("src/main/resources/com/main/ai1/images/Output.png")
     # Print final results
-    '''
-    print("Finished")
-    print("Final fittness: " + str(pop.getFittest().getFitness(students)))
-    print("Solution:")
-    print(pop.getFittest())
-    print(pop.getFittest().print(students))
-    '''
     f = open("src/main/resources/com/main/ai1/json/Output.json", "w")
     json.dump(pop.getFittest(), f, default=lambda o: o.__dict__)
     f.close()

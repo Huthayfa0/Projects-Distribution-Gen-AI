@@ -5,7 +5,7 @@ import random
 
 class Project:
     def __init__(self, pid,supervisor,title,description):
-        self.id = pid
+        self.id = int(pid)
         self.supervisor = supervisor
         self.title=title
         self.description=description
