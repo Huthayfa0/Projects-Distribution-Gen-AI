@@ -3,9 +3,12 @@ import java.io.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.TableView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class HelloApplication extends Application {
     @Override
@@ -15,20 +18,11 @@ public class HelloApplication extends Application {
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
+
     }
 
     public static void main(String[] args) throws IOException, InterruptedException {
-       /* String path = "/home/huthayfa/PycharmProjects/AI1/src/main/python/main.py";
-        ProcessBuilder pb = new ProcessBuilder("python3.8",path).inheritIO();
-        Process p = pb.start();
-        p.waitFor();
-        BufferedReader bfr = new BufferedReader(new InputStreamReader(p.getInputStream()));
-        String line = "";
-        while ((line = bfr.readLine()) != null) {
-            System.out.println(line);
-        }
-*/
-       launch();
-    }
 
+        launch();
+    }
 }
