@@ -1,5 +1,5 @@
 package com.main.ai1;
-
+import java.io.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -17,7 +17,18 @@ public class HelloApplication extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
+    public static void main(String[] args) throws IOException, InterruptedException {
+       /* String path = "/home/huthayfa/PycharmProjects/AI1/src/main/python/main.py";
+        ProcessBuilder pb = new ProcessBuilder("python3.8",path).inheritIO();
+        Process p = pb.start();
+        p.waitFor();
+        BufferedReader bfr = new BufferedReader(new InputStreamReader(p.getInputStream()));
+        String line = "";
+        while ((line = bfr.readLine()) != null) {
+            System.out.println(line);
+        }
+*/
+       launch();
     }
+
 }
