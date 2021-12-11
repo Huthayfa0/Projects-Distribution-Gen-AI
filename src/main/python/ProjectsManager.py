@@ -21,6 +21,8 @@ class Project:
     def correlation(self,project):
         if project.id in self.correlations:
             return self.correlations[project.id]
+        if self.id==project.id:
+            return 1.0
         sum=0.0
         diameter=0.0
         for x in self.analysis['concepts']:
