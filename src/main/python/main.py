@@ -7,8 +7,7 @@ import ProjectsManager
 import StudentGroup
 
 if __name__ == '__main__':
-    plt.bar(["Project 1","Project 2", "Project 3"],[3,4,5])
-    plt.show()
+
     #sys.exit(1)
     distributionManager = ProjectsManager.read_file("src/main/resources/com/main/ai1/json/Projects.json")
     students = StudentGroup.read_file(
@@ -51,3 +50,14 @@ if __name__ == '__main__':
     f = open("src/main/resources/com/main/ai1/json/Output.json", "w")
     json.dump(an, f, default=lambda o: o.__dict__)
     f.close()
+    names=["Project 1", "Project 2", "Project 3"]
+    plt.close()
+    plt.ylabel('Correlation')
+    plt.xlabel('Choices')
+    for i in range(len(students)):
+        choices=[]
+        for pro in students[i].choices:
+            choices.append(pro.correlation(an.getProject(i))*100)
+        plt.bar(names,choices)
+        plt.savefig("src/main/resources/com/main/ai1/images/GroubsFigures/Output{}.png".format(i))
+        plt.close()
