@@ -4,28 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="586bae78-aa62-460d-9872-33299701e0eb" name="Changes" comment="Final edit Ameer 1:36 am 11/12/2021">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/Graph.fxml" afterDir="false" />
+    <list default="true" id="586bae78-aa62-460d-9872-33299701e0eb" name="Changes" comment="prepared image for evaluation">
+      <change afterPath="$PROJECT_DIR$/ibm-credentials.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/request.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_11_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_11_29_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_11_30_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_11_30_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_11_30_PM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_11_30_PM__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_4_17_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_4_17_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_4_18_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_4_18_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_21__10_53_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_21__10_53_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_21__8_33_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_21__8_33_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_11_29_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_11_30_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_11_30_PM__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/ai1/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/ai1/ProjectTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/ProjectTableView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/ai1/StudentTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/StudentTableView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/ai1/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/ai1/HelloApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/ai1/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/ai1/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/ai1/ProjectTableView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/ai1/ProjectTableView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/ai1/StudentTableView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/ai1/StudentTableView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/ai1/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/ai1/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/ai1/json/Projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/ai1/json/Projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/ProjectsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/ProjectsManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/StudentGroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/StudentGroup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/Output.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/Output.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Output.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Students.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Students.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +29,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -79,6 +70,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.main.ai1" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/python" />
     </key>
@@ -86,20 +80,7 @@
       <recent name="com.main.ai1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloApplication">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.ai1.HelloApplication" />
-      <module name="AI1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.ai1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Python.python">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -109,6 +90,19 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.ai1.HelloApplication" />
+      <module name="AI1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.ai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,12 +152,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HelloApplication" />
       <item itemvalue="Python.python" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="Python.python" />
       </list>
     </recent_temporary>
@@ -184,6 +176,7 @@
       <workItem from="1639152669987" duration="457000" />
       <workItem from="1639153146731" duration="11276000" />
       <workItem from="1639164613844" duration="4810000" />
+      <workItem from="1639231634086" duration="14141000" />
     </task>
     <task id="LOCAL-00001" summary="updated the whole budy">
       <created>1638916903441</created>
@@ -213,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639170648956</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="prepared image for evaluation">
+      <created>1639171059198</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639171059198</updated>
+    </task>
+    <task id="LOCAL-00006" summary="prepared image for evaluation">
+      <created>1639171070655</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639171070655</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +236,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated the whole budy" />
@@ -237,10 +243,19 @@
     <MESSAGE value="setup python run through java" />
     <MESSAGE value="StudentTableView" />
     <MESSAGE value="prepared json and pdf read" />
-    <MESSAGE value="Final edit Ameer 1:36 am 11/12/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final edit Ameer 1:36 am 11/12/2021" />
+    <MESSAGE value="prepared image for evaluation" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepared image for evaluation" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/python/ProjectsManager.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="strings" />
@@ -252,7 +267,7 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AI1$python.coverage" NAME="python Coverage Results" MODIFIED="1639170942445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AI1$python.coverage" NAME="python Coverage Results" MODIFIED="1639263330792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AIProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1639143855877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python" />
   </component>
 </project>

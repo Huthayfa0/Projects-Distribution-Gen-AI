@@ -1,0 +1,12 @@
+{
+  "features": {
+      "concepts": {
+          "limit": 30
+          },
+    "categories": {
+          "limit": 30
+        }
+  }
+}
+
+

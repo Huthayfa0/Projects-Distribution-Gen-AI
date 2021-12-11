@@ -10,11 +10,10 @@ class StudentGroup:
         return self.choices
 
     def calculateCompatibility(self, project):
-        # ans = 0
+        ans = 0
         for i in range(len(self.choices)):
-            if self.choices[i].getID() == project.getID():
-                return 10 - i  # 10 for first, 9 for second, 8 for third
-        return 0
+            ans+=((10 - i)*10)*self.choices[i].correlation(project) # 10 for first, 9 for second, 8 for third
+        return ans/2.7
 
     def __repr__(self):
         return ",".join(self.names) + " chose: " + ",".join(self.choices)
