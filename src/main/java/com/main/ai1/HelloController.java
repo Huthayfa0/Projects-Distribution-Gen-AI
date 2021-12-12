@@ -51,7 +51,7 @@ public class HelloController implements Initializable {
 
         int count = 0;
         int count2 = 0;
-        Scanner sc = new Scanner(new File("C:\\Users\\Ameer\\Desktop\\AIProjects\\src\\main\\resources\\com\\main\\ai1\\StudentsSelections.csv"));
+        Scanner sc = new Scanner(new File("src/main/resources/com/main/ai1/StudentsSelections.csv"));
         sc.nextLine();
         String groups1="";
         int first=0;
