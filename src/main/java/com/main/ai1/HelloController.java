@@ -47,56 +47,19 @@ public class HelloController implements Initializable {
         stage.show();
     }}
 
-    public void FiguresClicked() throws IOException {{
-
-        int count = 0;
-        int count2 = 0;
-        Scanner sc = new Scanner(new File("src/main/resources/com/main/ai1/StudentsSelections.csv"));
-        sc.nextLine();
-        String groups1="";
-        int first=0;
-        int second=0;
-        int Third=0;
-        while (sc.hasNext())  //returns a boolean value
-        {
-            groups1="";
-            Pattern pattern = Pattern.compile("-?\\d+(\\.\\d+)?");
-            String str;
-            String[] strings;
-            str = sc.nextLine().replaceAll(String.valueOf('"'), "");
-            str = str.strip();
-
-            strings = str.split(",");
-            for (int i = 0; i < strings.length; i++) {
-                if (isNumeric(strings[i])) {
-                    if (count2 == 0) {
-                        first= Integer.parseInt(strings[i]);
-                        count2++;
-                    } else if (count2 == 1){
-                        second= Integer.parseInt(strings[i]);
-                        count2++;
-                    }else if (count2 == 2){
-                        Third= Integer.parseInt(strings[i]);
-                        count2++;
-                        count2=0;
-                    }
-                }else if (strings[i].isEmpty()==false){
-
-                    groups1+=strings[i]+",";
-                }
-            }
-
-
-            Label l=new Label(groups1 + "  " + first + "  " + second +"  " +Third);
-
-           // v.getChildren().add( myImageView.setImage(myImage));
-
-        }
+    public void FiguresClicked() throws IOException {
+        Stage stage = new Stage();
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Figures.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("Hello!");
+        stage.setScene(scene);
+        stage.show();
 
 
 
+    }
 
-    }}
+
     private static  boolean isNumeric(String strNum) {
         Pattern pattern = Pattern.compile("-?\\d+(\\.\\d+)?");
 
@@ -125,9 +88,9 @@ public class HelloController implements Initializable {
     public TableColumn<Output, String> oTitle;
     public TableColumn<Output, String> oDescription;
 
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
         Groups.setCellValueFactory(new PropertyValueFactory<>("Groups"));
         FirstChoice.setCellValueFactory(new PropertyValueFactory<>("FirstChoice"));
         SecondChoice.setCellValueFactory(new PropertyValueFactory<>("SecondChoice"));
@@ -155,6 +118,7 @@ public class HelloController implements Initializable {
         tableView.setItems(observableList);
         Projectstudent.setItems(observableListProject);
         OutputProject.setItems(observableListOutputProject);
+
     }
 
     ObservableList<StudentTableView> observableList = FXCollections.observableArrayList();
