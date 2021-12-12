@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Untitled Tab 1">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="452.0" prefWidth="600.0">
+               <children>
+                  <VBox layoutX="100.0" layoutY="23.0" prefHeight="330.0" prefWidth="552.0" spacing="50.0" AnchorPane.leftAnchor="23.0">
+                     <children>
+                        <Label prefHeight="200.0" prefWidth="239.0" text="Label" />
+                        <ImageView fitHeight="190.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </VBox>
+                  <Slider layoutX="7.0" layoutY="-8.0" orientation="VERTICAL" prefHeight="379.0" prefWidth="14.0" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
