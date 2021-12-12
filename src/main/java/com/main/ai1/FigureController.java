@@ -22,6 +22,7 @@ public class FigureController  implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         int count = 0;
         int count2 = 0;
+        int k=0;
         Scanner sc = null;
         try {
             sc = new Scanner(new File("src/main/resources/com/main/ai1/StudentsSelections.csv"));
@@ -64,19 +65,23 @@ public class FigureController  implements Initializable {
 
 
             Label l=new Label(groups1 + "  " + first + "  " + second +"  " +Third);
-            try {
-                FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("FiguresOutput.fxml"));
 
-                vboxItems.getChildren().add(fxmlLoader.load());
-                //vboxItems.getChildren().add(fxmlLoader.load());
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            k++;
             // v.getChildren().add( myImageView.setImage(myImage));
 
         }
+sc.close();
+        try {
+            for (int i = 0; i < k; i++) {
+                FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("FiguresOutput.fxml"));
 
+                vboxItems.getChildren().add(fxmlLoader.load());
+            }
 
+            //vboxItems.getChildren().add(fxmlLoader.load());
+        } catch (Exception e) {
+           // e.printStackTrace();
+        }
 
     }
 

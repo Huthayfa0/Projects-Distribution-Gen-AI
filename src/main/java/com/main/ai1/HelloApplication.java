@@ -22,7 +22,10 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) throws IOException, InterruptedException {
-
+        ProcessBuilder processBuilder=new ProcessBuilder("python3","src/main/python/main.py");
+        processBuilder.redirectErrorStream(true);
+        Process process=processBuilder.start();
+        System.out.println("Python script finished successfully");
         launch();
     }
 }
