@@ -24,19 +24,13 @@ class Project:
         if self.id==project.id:
             return 1.0
         sum=0.0
-        diameter=0.0
         for x in self.analysis['concepts']:
-            diameter += x['relevance']
             for y in project.analysis['concepts']:
                 if x['text']==y['text']:
-                    sum+=min(y['relevance'],x['relevance'])
+                    sum+=min(y['relevance'],x['relevance'])/x['relevance']
                     break
-        if diameter==0.0:
-            self.correlations[project.id] = 0.0
-            return 0.0
-        ans=sum/diameter
-        self.correlations[project.id]=ans
-        return ans
+        self.correlations[project.id]=sum
+        return sum
 
 class DistributionManager:
     projects = []
@@ -116,7 +110,6 @@ class Distribution:
             for i in range(len(students)):
                 fitnesses.append(students[i].calculateCompatibility(self.getProject(i)))
             self.fitness = sum(fitnesses)
-
         return self.fitness
 
 

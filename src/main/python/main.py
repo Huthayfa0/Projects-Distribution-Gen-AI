@@ -58,6 +58,7 @@ if __name__ == '__main__':
         choices=[]
         for pro in students[i].choices:
             choices.append(pro.correlation(an.getProject(i))*100)
+
         plt.bar(names,choices)
         plt.savefig("src/main/resources/com/main/ai1/images/GroubsFigures/Output{}.png".format(i))
         plt.close()
