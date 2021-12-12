@@ -65,7 +65,7 @@ public class ProjectTableView {
         JSONParser parser = new JSONParser();
         try {
 
-            JSONArray a = (JSONArray) parser.parse(new FileReader("C:\\Users\\Ameer\\Desktop\\AIProjects\\src\\main\\resources\\com\\main\\ai1\\json\\Projects.json"));
+            JSONArray a = (JSONArray) parser.parse(new FileReader("src/main/resources/com/main/ai1/json/Projects.json"));
 
             for (Object o : a)
             {

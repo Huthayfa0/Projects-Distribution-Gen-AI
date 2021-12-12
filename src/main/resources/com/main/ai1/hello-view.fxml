@@ -39,9 +39,9 @@
                 </Tab>
                 <Tab text="Project ideas">
                     <content>
-                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #919191;">
                             <children>
-                                <TableView fx:id="Projectstudent" layoutX="14.0" layoutY="23.0" prefHeight="1080.0" prefWidth="1920.0">
+                                <TableView fx:id="Projectstudent" layoutX="14.0" layoutY="23.0" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-radius: 30; -fx-background-color: #676767;">
                                     <columns>
                                         <TableColumn fx:id="iiID" prefWidth="87.0" text="ID" />
                                         <TableColumn fx:id="iiSupervisor" prefWidth="183.0" text="Supervisor" />
@@ -56,9 +56,9 @@
 
                 <Tab text="OUTPUT">
                     <content>
-                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="466.0" prefWidth="657.0">
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="466.0" prefWidth="657.0" style="-fx-background-color: #818181;">
                             <children>
-                                <TableView fx:id="OutputProject" layoutX="7.0" layoutY="23.0" prefHeight="911.0" prefWidth="1920.0">
+                                <TableView fx:id="OutputProject" layoutX="7.0" layoutY="23.0" prefHeight="911.0" prefWidth="1920.0" style="-fx-background-radius: 30; -fx-background-color: #878787;">
                                     <columns>
                                         <TableColumn fx:id="oGroups" prefWidth="329.0" text="Groups" />
                                         <TableColumn fx:id="oID" prefWidth="140.0" text="ID" />
@@ -68,7 +68,7 @@
                                     </columns>
                                 </TableView>
                         <Button fx:id="graph" layoutX="692.0" layoutY="971.0" mnemonicParsing="false" onAction="#GraphClicked" text="Graph" />
-                        <Button layoutX="1070.0" layoutY="971.0" mnemonicParsing="false" text="Button" />
+                        <Button fx:id="Figures" layoutX="1070.0" layoutY="971.0" mnemonicParsing="false" onAction="#printFigures" text="Button" />
 
                             </children>
                         </AnchorPane>

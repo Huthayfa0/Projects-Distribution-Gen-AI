@@ -4,35 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="586bae78-aa62-460d-9872-33299701e0eb" name="Changes" comment="jpg pages ready">
+    <list default="true" id="586bae78-aa62-460d-9872-33299701e0eb" name="Changes" comment="Final edit Ameer 1:36 am 11/12/2021">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_4_17_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_4_17_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_4_18_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_4_18_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_21__10_53_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_21__10_53_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_21__8_33_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_21__8_33_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_21__9_54_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_21__9_54_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/python/ProjectsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/ProjectsManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output10.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output13.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output14.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output15.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output19.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output22.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output23.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output27.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output29.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output31.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output33.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output33.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output34.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output36.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/GroubsFigures/Output9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/Output.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/images/Output.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Output.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/Output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/newOutput.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/main/ai1/json/newOutput.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/ai1/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/ai1/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/ai1/ProjectTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/ProjectTableView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/ai1/StudentTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/ai1/StudentTableView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/main/ai1/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/ai1/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/main/ai1/ProjectTableView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/ai1/ProjectTableView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/main/ai1/StudentTableView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/ai1/StudentTableView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +28,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -84,9 +72,6 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.main.ai1" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/python" />
     </key>
@@ -94,20 +79,7 @@
       <recent name="com.main.ai1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.python">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HelloApplication">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.ai1.HelloApplication" />
       <module name="AI1" />
@@ -117,6 +89,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,10 +151,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.HelloApplication" />
       <item itemvalue="Python.python" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="Python.python" />
       </list>
     </recent_temporary>
@@ -190,7 +177,8 @@
       <workItem from="1639152669987" duration="457000" />
       <workItem from="1639153146731" duration="11276000" />
       <workItem from="1639164613844" duration="4810000" />
-      <workItem from="1639231634086" duration="26852000" />
+      <workItem from="1639219052520" duration="12075000" />
+      <workItem from="1639325106599" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="updated the whole budy">
       <created>1638916903441</created>
@@ -220,49 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639170648956</updated>
     </task>
-    <task id="LOCAL-00005" summary="prepared image for evaluation">
-      <created>1639171059198</created>
+    <task id="LOCAL-00005" summary="Final edit Ameer 1:36 am 11/12/2021">
+      <created>1639179451239</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1639171059198</updated>
+      <updated>1639179451239</updated>
     </task>
-    <task id="LOCAL-00006" summary="prepared image for evaluation">
-      <created>1639171070655</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1639171070655</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added apis">
-      <created>1639263395002</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1639263395002</updated>
-    </task>
-    <task id="LOCAL-00008" summary="jpg pages ready">
-      <created>1639264811155</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1639264811155</updated>
-    </task>
-    <task id="LOCAL-00009" summary="jpg pages ready">
-      <created>1639264819293</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1639264819293</updated>
-    </task>
-    <task id="LOCAL-00010" summary="jpg pages ready">
-      <created>1639264997627</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1639264997627</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +231,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated the whole budy" />
@@ -285,16 +239,11 @@
     <MESSAGE value="setup python run through java" />
     <MESSAGE value="StudentTableView" />
     <MESSAGE value="prepared json and pdf read" />
-    <MESSAGE value="prepared image for evaluation" />
-    <MESSAGE value="added apis" />
-    <MESSAGE value="jpg pages ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="jpg pages ready" />
+    <MESSAGE value="Final edit Ameer 1:36 am 11/12/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final edit Ameer 1:36 am 11/12/2021" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="an.distribution[17]" />
-      </configuration>
       <configuration name="Application">
         <watch expression="strings" />
       </configuration>
@@ -305,7 +254,7 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AI1$python.coverage" NAME="python Coverage Results" MODIFIED="1639307900011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AI1$python.coverage" NAME="python Coverage Results" MODIFIED="1639170942445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AIProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1639143855877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python" />
   </component>
 </project>
