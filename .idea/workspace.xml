@@ -79,20 +79,7 @@
       <recent name="com.main.ai1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloApplication">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.ai1.HelloApplication" />
-      <module name="AI1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.ai1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Python.python">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -102,6 +89,19 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.ai1.HelloApplication" />
+      <module name="AI1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.ai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,12 +151,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HelloApplication" />
       <item itemvalue="Python.python" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="Python.python" />
       </list>
     </recent_temporary>
