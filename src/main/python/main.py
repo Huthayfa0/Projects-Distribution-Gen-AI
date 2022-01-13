@@ -26,7 +26,7 @@ if __name__ == '__main__':
     # Evolve population for 200 generations
     progress = [pop.getFittest().getFitness(students)]
     ga = GeneticsAlgorithem.GA(distributionManager, students)
-    for i in range(200):
+    for i in range(500):
         pop = ga.evolvePopulation(pop)
         progress.append(pop.getFittest().getFitness(students))
     

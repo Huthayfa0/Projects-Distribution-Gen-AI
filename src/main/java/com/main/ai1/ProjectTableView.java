@@ -1,8 +1,11 @@
 package com.main.ai1;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Scanner;
+
 import javafx.beans.property.SimpleLongProperty;
 import javafx.beans.property.SimpleStringProperty;
 import org.json.simple.JSONObject;
@@ -65,8 +68,7 @@ public class ProjectTableView {
         JSONParser parser = new JSONParser();
         try {
 
-            JSONArray a = (JSONArray) parser.parse(new FileReader("src/main/resources/com/main/ai1/json/Projects.json"));
-
+            JSONArray a = (JSONArray) parser.parse(new FileReader("C:\\Users\\Ameer\\OneDrive\\Desktop\\AIProjects1191015 (4)\\AIProjects1191015\\src\\main\\resources\\com\\main\\ai1\\json\\Projects.json"));
             for (Object o : a)
             {
                 JSONObject project = (JSONObject) o;

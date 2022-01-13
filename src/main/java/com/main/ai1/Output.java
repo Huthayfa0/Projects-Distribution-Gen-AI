@@ -77,9 +77,9 @@ public class Output {
         JSONParser parser = new JSONParser();
         try {
 
-            JSONObject a = (JSONObject) parser.parse(new FileReader("src/main/resources/com/main/ai1/json/Output.json"));
+            JSONObject a = (JSONObject) parser.parse(new FileReader("C:\\Users\\Ameer\\OneDrive\\Desktop\\AIProjects1191015 (4)\\AIProjects1191015\\src\\main\\resources\\com\\main\\ai1\\json\\Output.json"));
             JSONArray array1 = (JSONArray) a.get("distribution");
-            JSONArray b = (JSONArray) parser.parse(new FileReader("src/main/resources/com/main/ai1/json/Students.json"));
+            JSONArray b = (JSONArray) parser.parse(new FileReader("C:\\Users\\Ameer\\OneDrive\\Desktop\\AIProjects1191015 (4)\\AIProjects1191015\\src\\main\\resources\\com\\main\\ai1\\json\\Students.json"));
             for (int i = 0; i <b.size(); i++) {
                 JSONObject project = (JSONObject) array1.get(i);
                 JSONObject studentgroup= (JSONObject) b.get(i);

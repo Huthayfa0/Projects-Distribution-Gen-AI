@@ -25,7 +25,7 @@ public class FigureController  implements Initializable {
         int k=0;
         Scanner sc = null;
         try {
-            sc = new Scanner(new File("src/main/resources/com/main/ai1/StudentsSelections.csv"));
+            sc = new Scanner(new File("C:\\Users\\Ameer\\OneDrive\\Desktop\\AIProjects1191015 (4)\\AIProjects1191015\\src\\main\\resources\\com\\main\\ai1\\StudentsSelections.csv"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

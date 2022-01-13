@@ -50,7 +50,7 @@ public class FigureOutputController implements Initializable {
     }
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        Project1.setText(String.valueOf(i++));
+        Project1.setText(String.valueOf(i));
         int count = 0;
         int count2 = 0;
         ArrayList<String> g=new ArrayList<>();
@@ -59,7 +59,7 @@ public class FigureOutputController implements Initializable {
         ArrayList<String> g3=new ArrayList<>();
         Scanner sc = null;
         try {
-            sc = new Scanner(new File("src/main/resources/com/main/ai1/StudentsSelections.csv"));
+            sc = new Scanner(new File("C:\\Users\\Ameer\\OneDrive\\Desktop\\AIProjects1191015 (4)\\AIProjects1191015\\src\\main\\resources\\com\\main\\ai1\\StudentsSelections.csv"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -78,22 +78,22 @@ public class FigureOutputController implements Initializable {
             str = str.strip();
 
             strings = str.split(",");
-            for (int i = 0; i < strings.length; i++) {
-                if (isNumeric(strings[i])) {
+            for (int j = 0; j < strings.length; j++) {
+                if (isNumeric(strings[j])) {
                     if (count2 == 0) {
-                        first= Integer.parseInt(strings[i]);
+                        first= Integer.parseInt(strings[j]);
                         count2++;
                     } else if (count2 == 1){
-                        second= Integer.parseInt(strings[i]);
+                        second= Integer.parseInt(strings[j]);
                         count2++;
                     }else if (count2 == 2){
-                        Third= Integer.parseInt(strings[i]);
+                        Third= Integer.parseInt(strings[j]);
                         count2++;
                         count2=0;
                     }
-                }else if (strings[i].isEmpty()==false){
+                }else if (strings[j].isEmpty()==false){
 
-                    groups1+=strings[i]+",";
+                    groups1+=strings[j]+",";
                 }
             }
 
